@@ -1,0 +1,14 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+/.idea
+##############################
+## Java
+##############################
+.mtj.tmp/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
