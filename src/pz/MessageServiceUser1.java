@@ -11,9 +11,5 @@ public class MessageServiceUser1 {
         MessageServiceConsumerImp objMessageServiceConsumer = new MessageServiceConsumerImp(objMessageServiceEmailOrSMS);
         objMessageServiceConsumer.processMessage(recipient, message);
 
-        MessageServiceInjector objMessageServiceInjectorEmail = new EmailMessageServiceInjectorImp();
-        objMessageServiceInjectorEmail.getMessageServiceConsumer().processMessage(recipient, message);
-
-
     }
 }
